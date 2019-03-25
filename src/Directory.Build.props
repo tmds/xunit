@@ -15,7 +15,7 @@
     <OutputPath Condition=" '$(Platform)' != 'x86' ">bin\$(Configuration)</OutputPath>
     <OutputPath Condition=" '$(Platform)' == 'x86' ">bin\$(Configuration)_x86</OutputPath>
     <PackageId>$(MSBuildProjectName)</PackageId>
-    <RootNamespace>Xunit</RootNamespace>
+    <RootNamespace>Xunit3</RootNamespace>
     <SignAssembly>true</SignAssembly>
     <VersionPrefix>99.99.99-dev</VersionPrefix>
     <WarningsAsErrors>true</WarningsAsErrors>
